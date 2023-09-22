@@ -1,0 +1,174 @@
+
+
+.btn {
+    display: block;
+    margin: 0rem auto;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.inputcontrol {
+padding: .8rem;
+
+}
+
+
+.listitem {
+    margin: .5rem auto;
+    padding: 1rem;
+    text-align: center;
+    width: 65%;
+    display: block;
+    border: gray solid 1px;
+    border-radius: 10px !important;
+    color: #555555;
+}
+
+.listitem:hover {
+    border: black solid 1px;
+    cursor: pointer;
+    background: whitesmoke;
+}
+
+.logoimg {
+    width: 20%;
+    height: auto;
+}
+
+.employeecard {
+    margin: .5rem auto;
+    padding: .5rem;
+    text-align: center;
+    width: 65%;
+    display: block;
+    border: gray solid 1px;
+    border-radius: 10px !important;
+    color: #555555;
+}
+
+.employeecard:hover {
+    border: black solid 1px;
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.searchBar {
+    width: 65%;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: gray 1px solid;
+}
+
+
+
+.video-one{
+    max-width: 100%;
+    display: block;
+    margin: 0rem auto;
+    }
+    .coursecard {
+        background-color: white;
+        margin: .4rem 0rem;
+        border: 1px grey solid;
+    
+    }
+    
+    .answers{
+    display: block;
+    }
+    
+    .answerinput {
+        
+        margin-right: 1rem; 
+    
+    }
+    
+    .courseTitle {
+        
+        border-radius: 5px;
+       
+        font-size: large;
+        font-family: Arial;
+        cursor: pointer;
+    }
+    
+    .courseTitle:hover {
+        
+        border-radius: 5px;
+        font-size: large;
+        font-family: Arial;
+        cursor: pointer;
+    }
+    
+    .btn-final {
+        background-color: ghostwhite !important;
+        border: 2px solid black !important;
+        color: black !important;
+    }
+    
+    .btn-final:hover {
+        background-color: lightgray !important;
+        border: 2px solid black !important;
+        color: black !important;
+    }
+    
+    .centered {
+        display: block;
+        margin: 0rem auto;
+    }
+
+    .sectionTitle {
+        font-weight: 600;
+    }
+
+    .sectionTitle:hover {
+            cursor: pointer;    
+            }
+
+
+    .menuList {
+        list-style: none;
+        display: inline;
+        margin: 0rem 1rem;
+        float: right;
+    }
+    
+    .percentspan {
+        float: right;
+        font-size: smaller;
+        padding: .5rem 0rem;
+        color: gray;
+    } 
+
+    .datespan {
+        float: right;
+        font-size: smaller;
+        padding:.5rem 0rem;
+        color: gray;
+    }
+
+    .lockspan {
+        float: right;
+        color: gray;
+        font-size: smaller;
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    .jjlogo {
+        width: 10%;
+        height: auto;
+        border-radius: 50%;
+        float: left;
+        background-color: whitesmoke;
+    }
+
+    .pagination {
+        display: block;
+        width: 20%;
+        margin: 0rem auto;
+    }

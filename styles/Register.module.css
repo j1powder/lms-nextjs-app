@@ -1,0 +1,14 @@
+
+.spacing {
+    padding: 1rem;
+    margin: 5rem;
+    background-color: whitesmoke;
+
+}
+
+.formbody {
+    font-weight: 600 !important;
+}
+.formbody label{
+    margin-top: .5rem;
+}

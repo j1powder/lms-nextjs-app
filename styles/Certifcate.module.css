@@ -1,0 +1,22 @@
+.main {
+    position: relative !important;
+    width: 800px;
+    font-size: 15px;
+    }
+    
+    .date {
+        position: absolute !important;
+        top: 30%;
+        left: 30%;
+        color: black !important;
+        padding-right: 20%;
+    }
+    
+    .certpic {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .genPDF {
+      padding: 2rem !important;
+    }

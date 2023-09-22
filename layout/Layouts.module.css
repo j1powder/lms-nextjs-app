@@ -1,0 +1,70 @@
+
+
+.btn {
+    background-color: skyblue !important;
+    border: skyblue 1px solid !important;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold !important;
+    padding: .6rem !important;
+    margin: 0rem .6rem !important;
+}
+.btn:hover {
+background-color: #1189dd !important;
+}
+
+.navlinks {
+font-weight: bold !important;
+}
+
+.signinlink {
+    font-weight: bold !important;
+    color: #1189dd !important;
+
+}
+
+.signinlink:hover {
+text-decoration: underline !important;
+
+}
+
+.footcontainer {
+    background-color: whitesmoke;
+    padding: 1rem;
+    font-size: 13px;
+    min-height: 100px;
+}
+
+.links {
+    margin: 1rem;
+    text-decoration: none !important;
+    color: black ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.fullmenu {
+    background-color: whitesmoke !important;
+}
+
+.modaltitle {
+
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.formfields {
+    padding: 0rem 4rem;
+  
+    
+}
+
+.formfields input {
+    padding: .8rem .5rem;
+}
+
+.links {
+    text-decoration: none !important;
+    color: black !important;
+}
+

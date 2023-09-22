@@ -1,0 +1,109 @@
+.topsection {
+  background-image: url('../assets/billboard-bg--sky-cranes.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+
+}
+
+.topcontent {
+  padding: 20% 0%;
+  
+  text-align: center;
+}
+
+.topcontent h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 52px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.topcontent button{
+  padding: .8rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: large;
+  background-color: #1189dd;
+  color: white;
+  text-shadow: 1px 1px 1px gray;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topcontent button:hover{
+  background-color: white;
+  color:#1189dd;
+  text-shadow: 1px 1px 1px gray;
+
+
+}
+.topcontent button:active{
+  background-color: white;
+  text-shadow: 1px 1px 1px gray;
+
+  color: #1189dd;
+  padding: .9rem;
+}
+
+.video {
+  display: block;
+  margin: 0rem auto;
+  width: 100%;
+}
+
+.oshacards {
+  padding: 2rem;
+  margin: .5rem;
+  background-image: linear-gradient(to bottom, #1189dd, skyblue) !important;
+  height: 500px;
+  max-width: 400px;
+}
+
+.headertwo {
+  color: white;
+}
+
+.courseImages {
+  width: 90%;
+  display: block;
+  margin: .4rem auto;
+}
+
+.containers {
+  display: block;
+  margin: 0rem auto;
+  width: 70%;
+}
+
+.regularcard {
+padding: 1rem;
+display: block;
+margin: 1rem auto;
+width: 80%;
+background-color: #1189dd;
+}
+
+.regularcard p {
+  color: white;
+  font-size: 20px;
+}
+
+.newsletterbtn {
+  width: 100%;
+  background-color: black;
+}
+.newsletterbtn:hover {
+  width: 100%;
+  background-color: gray;
+  
+}
+
+.whitelogo {
+ width: 30%;
+ height: auto;
+ display:block;
+ margin: .8rem auto;
+}
