@@ -37,8 +37,17 @@ text-decoration: underline !important;
 
 .links {
     margin: 1rem;
+    font-weight: bold;
     text-decoration: none !important;
-    color: black ;
+    color: gray ;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+.signout {
+    margin: .5rem 0rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: #1189dd;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
 }
 
@@ -63,8 +72,5 @@ text-decoration: underline !important;
     padding: .8rem .5rem;
 }
 
-.links {
-    text-decoration: none !important;
-    color: black !important;
-}
+
 
