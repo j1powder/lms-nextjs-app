@@ -96,14 +96,14 @@ useEffect(()=>{
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav>
-              {employeeData && currentUser && employeeData[0].isAdmin && <Nav.Link className={classes.navlinks} href="/companies">
+              {employeeData && currentUser && employeeData[0].isAdmin && <Link className={classes.links} href="/companies">
                 Companies
-              </Nav.Link>}
+              </Link>}
 
 
-                {employeeData && currentUser && employeeData[0].isAdmin && <Nav.Link className={classes.navlinks} href="/courselist">
+                {employeeData && currentUser && employeeData[0].isAdmin && <Link className={classes.links} href="/courselist">
                         All Courses
-                </Nav.Link>}
+                </Link>}
 
                 {employeeData && currentUser && employeeData[0].isAdmin && <Link className={classes.links} href="/coursebuilder">
                         Course Builder
@@ -117,7 +117,7 @@ useEffect(()=>{
                 </Link>}
               
               {currentUser && <Nav.Link
-                className={classes.signinlink}
+                className={classes.signout}
                 onClick={handleSignOut}
               >
                 Sign Out

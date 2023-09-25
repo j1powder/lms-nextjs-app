@@ -1,8 +1,9 @@
 import React, {useContext, useEffect} from 'react'
 import { AuthContext } from '@/auth/AuthContext'
 import { useRouter } from 'next/router';
+import Dashboard from '@/components/Dashboard';
 
-const Dashboard = () => {
+const DashboardPage = () => {
     const { currentUser } = useContext(AuthContext);
     const router = useRouter();
     
@@ -14,12 +15,10 @@ const Dashboard = () => {
     console.log(currentUser)
   return <>
   
-            <h2>Dashboard</h2>
-            <h5>Placeholder Text
-
-            </h5>
-
+        <br/>
+        <Dashboard/>
+        
         </>
 }
 
-export default Dashboard;
+export default DashboardPage;
